@@ -1,0 +1,5 @@
+{
+  "webPort": 3000,
+  "pluginApiUrl": "http://127.0.0.1:8765",
+  "pluginSecret": "super_secret_plugin_key_123"
+}

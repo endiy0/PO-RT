@@ -1,0 +1,3 @@
+mainWorld: world
+webPort: 8765
+secret: "super_secret_plugin_key_123"

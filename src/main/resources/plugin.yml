@@ -1,0 +1,17 @@
+name: PORT
+version: 1.0.0
+main: com.toyotech.port.PORTPlugin
+api-version: 1.21
+commands:
+  leave:
+    description: Leave your personal world and return to main world spawn.
+  home:
+    description: Teleport to your personal world.
+  join:
+    description: Teleport to another player's personal world.
+    permission: port.admin
+    usage: /join <username>
+permissions:
+  port.admin:
+    description: Admin permission for PORT plugin
+    default: op
